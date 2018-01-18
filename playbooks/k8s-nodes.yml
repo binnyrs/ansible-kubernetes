@@ -1,0 +1,4 @@
+- hosts: nodes
+  become: yes
+  roles:
+    - {role: djx339.k8s-kubeadm-node}

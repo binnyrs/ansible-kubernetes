@@ -1,0 +1,6 @@
+- src: djx339.k8s-kubeadm-install
+- src: djx339.k8s-kubeadm-master
+- src: djx339.k8s-kubeadm-node
+- src: djx339.k8s-kubeadm-kubectl-conf
+- src: djx339.k8s-kubelet-gpu
+- src: djx339.k8s-kubeadm-tear-down

@@ -1,0 +1,4 @@
+- hosts: master
+  become: yes
+  roles:
+    - {role: djx339.k8s-kubeadm-kubectl-conf }
