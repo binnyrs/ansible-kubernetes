@@ -1,0 +1,19 @@
+---
+apiVersion: extensions/v1beta1
+kind: DaemonSet
+metadata:
+  name: busybox
+  labels:
+    k8s-app: busybox
+spec:
+  template:
+    metadata:
+      labels:
+        name: busybox
+    spec:
+      containers:
+        - name: busybox
+          image: busybox
+          command:
+            - sleep
+            - "36000"
