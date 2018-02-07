@@ -4,3 +4,4 @@
 - src: djx339.k8s-kubeadm-kubectl-conf
 - src: djx339.k8s-kubelet-gpu
 - src: djx339.k8s-kubeadm-tear-down
+- src: djx339.k8s-dashboard
